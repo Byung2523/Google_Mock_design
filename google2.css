@@ -1,0 +1,194 @@
+/* Mock Google CSS */
+
+/* Resetting the page*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Font Customization */
+body {
+	font-family: arial,sans-serif;
+	font-size: 14px;
+}
+
+/* Aligning the Main content to the center*/
+#container {
+	width: 540px;
+	margin: 109px auto 0;
+	text-align: center;
+}
+
+/* Google Logo 544/2 x 184/2 */
+
+h1#logo {
+	width: 272px;
+	height: 92px;
+	background: url('images/mock_google.png ') top left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 0 auto;
+}
+
+/* Customizing the search bar*/
+input[type="text"] {
+	width: 465px;
+	padding: 13px 0;
+	padding-left: 18px;
+	margin: 27px 0 18px;
+	font-size: 16px;
+	word-wrap: break-word;
+	border: 1px solid #B2BAC2;
+	border-radius: 25px;
+	outline: none;
+}
+
+input[type="text"]:hover {
+	border-color: white;
+	box-shadow: 0 0 12px #CECFD0;
+}
+
+/* Customizing the submit buttons */
+
+input[type="submit"] {
+	background: #f2f2f2;
+	color: #5F6368;
+	border: 1px solid #f2f2f2;
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	margin: 11px 4px;
+	padding: 9px 16px;
+	border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+	border-color: #B6B7B8;
+	color: black;
+	cursor: pointer;
+}
+
+input[type="button"] {
+	font-size: 13px;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background-color: #4285f4;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 12px;
+	line-height: 10px;
+}
+
+
+/*#signIn {
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+	font-weight: bold;
+	color: #fff;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#signIn {
+	color: white;
+}*/
+
+/* Customizing the Small tag */
+
+small {
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+a:link, a:visited {
+	color: dodgerblue;
+}
+
+/* Customizing the Header navagation */
+
+nav#right-header {
+	float: right;
+	padding: 21px;
+}
+
+nav#right-header ul li {
+	display: inline;
+	font-size: 13px;
+}
+
+nav#right-header ul li a:link,
+nav#right-header ul li a:visited {
+	color: #5C5F61;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav#right-header ul li a:hover,
+footer nav ul li:hover {
+	text-decoration: underline;
+	color: #707274;
+}
+
+nav#left-header {
+	padding-top: 30px;
+	padding-left: 14px;
+}
+
+nav#left-header ul li {
+	display: inline;
+	font-size: 13px;
+}
+
+nav#left-header ul li a:link,
+nav#left-header ul li a:visited {
+	color: #555;
+	text-decoration: none;
+	padding: 7px;
+}
+
+nav#left-header ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Customizing the Footer navagation */
+
+footer {
+	background: #f2f2f2;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Padding of the whole footer*/
+
+footer nav {
+	padding: 12px 19px;
+	border-top: 1px solid #DEDCDA;
+}
+
+footer nav ul li {
+	display: inline;
+}
+
+footer nav ul {
+	float: left;
+}
+
+footer nav ul.right-links {
+	float: right;
+}
+
+
+/*Padding is spacing between words*/
+
+footer nav ul li a:link,
+footer nav ul li a:visited {
+	color: #5C5F61;
+	text-decoration: none;
+	padding: 11.3px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
